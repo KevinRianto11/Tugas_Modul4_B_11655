@@ -1,13 +1,6 @@
 streamlit
-pickle
 scikit-learn
 numpy
 pandas
 plotly
-scipy
-seaborn
-yellowbreak
-warnings
-matplotlib
-
-
+pickle
