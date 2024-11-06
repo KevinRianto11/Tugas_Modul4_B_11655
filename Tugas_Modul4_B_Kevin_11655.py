@@ -47,12 +47,11 @@ if uploaded_file is not None:
     input_data = pd.read_csv(uploaded_file)
     st.markdown("<h1 style='text-align: center;'>Unsupervised Learning - 11655 </h1>", unsafe_allow_html=True)
     st.dataframe(input_data)
-
-    model_directory = r'C:\Users\kevst\OneDrive\Documents\Kuliah\Sem 5\Pembelajaran Mesin dan Pembelajaran Mendalam\Unsupervised Learning (Praktek)\Unsupervised Learning (Praktek)\Tugas4_B_11655'
+    
     model_path = {
-        "AGG_model" : os.path.join(model_directory, r'AGG_model.pkl'),
-        "kMeans_model" : os.path.join(model_directory, r'kMeans_model.pkl'),
-        "DBSCAN_model" : os.path.join(model_directory, r'DBSCAN_model.pkl'),
+        "AGG_model" : os.path.join(r'AGG_model.pkl'),
+        "kMeans_model" : os.path.join(r'kMeans_model.pkl'),
+        "DBSCAN_model" : os.path.join(r'DBSCAN_model.pkl'),
     }
 
     models = {}
