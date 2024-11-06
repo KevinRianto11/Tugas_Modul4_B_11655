@@ -1,7 +1,8 @@
 streamlit
+pickle
 scikit-learn
 numpy
 pandas
 plotly
 scipy
-pickle
+
